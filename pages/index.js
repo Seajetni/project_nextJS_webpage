@@ -10,7 +10,7 @@ import { Search, Hotel, Zap } from "lucide-react";
 export default function Home() {
 
   const [rooms, setRooms] = useState([]);
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState('');
   const [openBill, setOpenBill] = useState(false);
 
   const fetchRooms = () => {
